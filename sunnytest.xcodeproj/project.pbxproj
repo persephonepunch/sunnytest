@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F131A4001A77FF4500934554 /* qr.svg in Resources */ = {isa = PBXBuildFile; fileRef = F131A3FF1A77FF4500934554 /* qr.svg */; };
+		F131A4021A77FF8700934554 /* ElmoLovesABCQR.png in Resources */ = {isa = PBXBuildFile; fileRef = F131A4011A77FF8700934554 /* ElmoLovesABCQR.png */; };
+		F131A4041A77FFC700934554 /* ElmoLovesABCQR.png in Resources */ = {isa = PBXBuildFile; fileRef = F131A4031A77FFC700934554 /* ElmoLovesABCQR.png */; };
+		F131A4051A77FFC700934554 /* ElmoLovesABCQR.png in Resources */ = {isa = PBXBuildFile; fileRef = F131A4031A77FFC700934554 /* ElmoLovesABCQR.png */; };
+		F131A4071A77FFD000934554 /* qr.svg in Resources */ = {isa = PBXBuildFile; fileRef = F131A4061A77FFD000934554 /* qr.svg */; };
+		F131A4081A77FFD000934554 /* qr.svg in Resources */ = {isa = PBXBuildFile; fileRef = F131A4061A77FFD000934554 /* qr.svg */; };
 		F1380DE41A774131001BBF9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1380DE31A774131001BBF9D /* AppDelegate.swift */; };
 		F1380DE61A774131001BBF9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1380DE51A774131001BBF9D /* ViewController.swift */; };
 		F1380DE91A774131001BBF9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1380DE71A774131001BBF9D /* Main.storyboard */; };
@@ -48,6 +54,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F131A3FF1A77FF4500934554 /* qr.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = qr.svg; sourceTree = "<group>"; };
+		F131A4011A77FF8700934554 /* ElmoLovesABCQR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ElmoLovesABCQR.png; sourceTree = "<group>"; };
+		F131A4031A77FFC700934554 /* ElmoLovesABCQR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ElmoLovesABCQR.png; sourceTree = "<group>"; };
+		F131A4061A77FFD000934554 /* qr.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = qr.svg; sourceTree = "<group>"; };
 		F1380DDE1A774131001BBF9D /* sunnytest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sunnytest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1380DE21A774131001BBF9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1380DE31A774131001BBF9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +133,8 @@
 		F1380DE11A774131001BBF9D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F131A4011A77FF8700934554 /* ElmoLovesABCQR.png */,
+				F131A3FF1A77FF4500934554 /* qr.svg */,
 				F1380E061A77494E001BBF9D /* blue.png */,
 				F1380E071A77494E001BBF9D /* bluex.png */,
 				F1380E081A77494E001BBF9D /* heart.png */,
@@ -147,6 +159,8 @@
 		F1380DF71A774131001BBF9D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F131A4061A77FFD000934554 /* qr.svg */,
+				F131A4031A77FFC700934554 /* ElmoLovesABCQR.png */,
 				F1380E211A778363001BBF9D /* elmoLovesABCs-01.jpg */,
 				F1380E1E1A778345001BBF9D /* screen480x480.jpeg */,
 				F1380E1B1A77833C001BBF9D /* screen480x480 (1).jpeg */,
@@ -237,13 +251,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1380E1F1A778345001BBF9D /* screen480x480.jpeg in Resources */,
+				F131A4041A77FFC700934554 /* ElmoLovesABCQR.png in Resources */,
 				F1380DE91A774131001BBF9D /* Main.storyboard in Resources */,
 				F1380E141A77494E001BBF9D /* yellow.png in Resources */,
 				F1380E121A77494E001BBF9D /* playlist.png in Resources */,
+				F131A4021A77FF8700934554 /* ElmoLovesABCQR.png in Resources */,
 				F1380E221A778363001BBF9D /* elmoLovesABCs-01.jpg in Resources */,
+				F131A4001A77FF4500934554 /* qr.svg in Resources */,
 				F1380E0C1A77494E001BBF9D /* blue.png in Resources */,
 				F1380E1C1A77833C001BBF9D /* screen480x480 (1).jpeg in Resources */,
 				F1380E0E1A77494E001BBF9D /* bluex.png in Resources */,
+				F131A4071A77FFD000934554 /* qr.svg in Resources */,
 				F1380E041A774932001BBF9D /* front.png in Resources */,
 				F1380E161A77494E001BBF9D /* yellowx.png in Resources */,
 				F1380E191A778326001BBF9D /* qrsingle.jpg in Resources */,
@@ -257,10 +275,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F131A4081A77FFD000934554 /* qr.svg in Resources */,
 				F1380E201A778345001BBF9D /* screen480x480.jpeg in Resources */,
 				F1380E1A1A778326001BBF9D /* qrsingle.jpg in Resources */,
 				F1380E1D1A77833C001BBF9D /* screen480x480 (1).jpeg in Resources */,
 				F1380E111A77494E001BBF9D /* heart.png in Resources */,
+				F131A4051A77FFC700934554 /* ElmoLovesABCQR.png in Resources */,
 				F1380E231A778363001BBF9D /* elmoLovesABCs-01.jpg in Resources */,
 				F1380E171A77494E001BBF9D /* yellowx.png in Resources */,
 				F1380E151A77494E001BBF9D /* yellow.png in Resources */,

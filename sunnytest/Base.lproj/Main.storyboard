@@ -9,7 +9,7 @@
             <objects>
                 <viewController id="RiU-jO-5be" sceneMemberID="viewController">
                     <imageView key="view" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="front" id="6FB-b2-puR">
-                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     </imageView>
                     <navigationItem key="navigationItem" id="QUO-tQ-hN5">
@@ -69,12 +69,6 @@
                                     <rect key="frame" x="53" y="517" width="142" height="88"/>
                                 </variation>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qrsingle.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="nqs-CW-vna">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="66" y="453" width="65" height="65"/>
-                                </variation>
-                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TKS-88-s3q">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -91,9 +85,15 @@ Compatibility: Requires iOS 5.1.1 or later. Compatible with iPad.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="9"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="139" y="447" width="240" height="128"/>
+                                    <rect key="frame" x="139" y="445" width="196" height="134.5"/>
                                 </variation>
                             </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ElmoLovesABCQR.png" translatesAutoresizingMaskIntoConstraints="NO" id="PMb-Db-Wx6">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="68" y="453" width="70" height="68"/>
+                                </variation>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -103,8 +103,8 @@ Compatibility: Requires iOS 5.1.1 or later. Compatible with iPad.</string>
                                 <exclude reference="6V7-Ak-F4M"/>
                                 <exclude reference="0fd-Ka-xmz"/>
                                 <exclude reference="cvJ-tQ-Qoj"/>
-                                <exclude reference="nqs-CW-vna"/>
                                 <exclude reference="TKS-88-s3q"/>
+                                <exclude reference="PMb-Db-Wx6"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -114,8 +114,8 @@ Compatibility: Requires iOS 5.1.1 or later. Compatible with iPad.</string>
                                 <include reference="6V7-Ak-F4M"/>
                                 <include reference="0fd-Ka-xmz"/>
                                 <include reference="cvJ-tQ-Qoj"/>
-                                <include reference="nqs-CW-vna"/>
                                 <include reference="TKS-88-s3q"/>
+                                <include reference="PMb-Db-Wx6"/>
                             </mask>
                         </variation>
                     </view>
@@ -123,6 +123,32 @@ Compatibility: Requires iOS 5.1.1 or later. Compatible with iPad.</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1273.5" y="389"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="DrZ-ZY-WPh">
+            <objects>
+                <tableViewController id="jIY-UQ-1QJ" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="hw8-XA-S1X">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="lJ8-Kf-Vn0">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lJ8-Kf-Vn0" id="36w-CA-jFj">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="jIY-UQ-1QJ" id="6j6-T8-py8"/>
+                            <outlet property="delegate" destination="jIY-UQ-1QJ" id="PxK-WZ-By1"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vhm-Pj-zM8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1917" y="389"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Osp-hN-SfM">
@@ -162,10 +188,10 @@ Compatibility: Requires iOS 5.1.1 or later. Compatible with iPad.</string>
         </scene>
     </scenes>
     <resources>
+        <image name="ElmoLovesABCQR.png" width="404" height="404"/>
         <image name="elmoLovesABCs-01" width="2048" height="1536"/>
         <image name="front" width="398" height="614"/>
         <image name="playlist" width="1378" height="449"/>
-        <image name="qrsingle.jpg" width="61" height="60"/>
         <image name="screen480x480 (1).jpeg" width="480" height="360"/>
         <image name="screen480x480.jpeg" width="480" height="360"/>
         <image name="yellow.png" width="87" height="88"/>
