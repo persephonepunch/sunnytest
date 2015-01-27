@@ -45,25 +45,34 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="elmoLovesABCs-01" translatesAutoresizingMaskIntoConstraints="NO" id="Ezy-Ja-GKO">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="66" y="167" width="269" height="185"/>
+                                    <rect key="frame" x="66" y="161" width="269" height="185"/>
                                 </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="screen480x480.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="6V7-Ak-F4M">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="206" y="360" width="129" height="90"/>
+                                    <rect key="frame" x="206" y="354" width="129" height="90"/>
                                 </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="screen480x480 (1).jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="0fd-Ka-xmz">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="66" y="360" width="129" height="90"/>
+                                    <rect key="frame" x="66" y="354" width="129" height="90"/>
                                 </variation>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cvJ-tQ-Qoj">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Button" image="yellow.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="53" y="517" width="142" height="88"/>
+                                </variation>
+                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qrsingle.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="nqs-CW-vna">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="65" y="465" width="65" height="65"/>
+                                    <rect key="frame" x="66" y="453" width="65" height="65"/>
                                 </variation>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TKS-88-s3q">
@@ -82,7 +91,7 @@ Compatibility: Requires iOS 5.1.1 or later. Compatible with iPad.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="9"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="138" y="458" width="240" height="128"/>
+                                    <rect key="frame" x="139" y="447" width="240" height="128"/>
                                 </variation>
                             </textView>
                         </subviews>
@@ -93,6 +102,7 @@ Compatibility: Requires iOS 5.1.1 or later. Compatible with iPad.</string>
                                 <exclude reference="Ezy-Ja-GKO"/>
                                 <exclude reference="6V7-Ak-F4M"/>
                                 <exclude reference="0fd-Ka-xmz"/>
+                                <exclude reference="cvJ-tQ-Qoj"/>
                                 <exclude reference="nqs-CW-vna"/>
                                 <exclude reference="TKS-88-s3q"/>
                             </mask>
@@ -103,6 +113,7 @@ Compatibility: Requires iOS 5.1.1 or later. Compatible with iPad.</string>
                                 <include reference="Ezy-Ja-GKO"/>
                                 <include reference="6V7-Ak-F4M"/>
                                 <include reference="0fd-Ka-xmz"/>
+                                <include reference="cvJ-tQ-Qoj"/>
                                 <include reference="nqs-CW-vna"/>
                                 <include reference="TKS-88-s3q"/>
                             </mask>
@@ -157,5 +168,6 @@ Compatibility: Requires iOS 5.1.1 or later. Compatible with iPad.</string>
         <image name="qrsingle.jpg" width="61" height="60"/>
         <image name="screen480x480 (1).jpeg" width="480" height="360"/>
         <image name="screen480x480.jpeg" width="480" height="360"/>
+        <image name="yellow.png" width="87" height="88"/>
     </resources>
 </document>
